@@ -215,7 +215,7 @@ section {
   align-items: center;
   justify-content: center;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  background: url('https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=900&q=80') center center/cover no-repeat;
+  background: url('../IMAGENES/posible-foto-1.webp') center center/cover no-repeat;
 }
 
 /* ============================================
@@ -391,7 +391,7 @@ section {
 }
 
 .process-section {
-  max-width: var(--container);
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 var(--gutter);
   text-align: center;
@@ -399,20 +399,24 @@ section {
 
 .steps {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 32px;
+  grid-template-columns: 1.3fr auto 1fr auto 1.3fr auto 1fr;
+  gap: 16px;
   max-width: 100%;
+  align-items: center;
 }
 
 .step {
   background: var(--card);
   border: 1px solid var(--line);
   border-radius: 16px;
-  padding: 28px;
-  font-size: 18px;
+  padding: 40px 36px;
+  font-size: 16px;
   line-height: 1.75;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .step .head {
@@ -430,8 +434,22 @@ section {
 
 .step p {
   color: var(--muted);
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 8px;
+}
+
+.step-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--brand);
+  opacity: 0.6;
+  padding: 0 4px;
+}
+
+.step-arrow svg {
+  width: 32px;
+  height: 32px;
 }
 
 /* ============================================
@@ -603,6 +621,10 @@ textarea {
   .steps {
     grid-template-columns: 1fr 1fr;
   }
+  
+  .step-arrow {
+    display: none;
+  }
 }
 
 @media (max-width: 920px) {
@@ -641,6 +663,10 @@ textarea {
 
   .steps {
     grid-template-columns: 1fr;
+  }
+
+  .step-arrow {
+    display: none;
   }
 
   .tools-grid {
