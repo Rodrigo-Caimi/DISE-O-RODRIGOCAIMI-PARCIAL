@@ -120,11 +120,11 @@
     <section id="contacto">
       <h2>Contacto</h2>
       <p style="max-width:600px;text-align:center;font-size:22px;margin-bottom:30px;color:var(--muted)">Si te interesa colaborar o conocer más sobre mi trabajo, no dudes en contactarme. Estoy abierto a nuevas oportunidades y proyectos creativos.</p>
-      <form>
-        <div><input type="text" placeholder="Tu nombre" /></div>
-        <div><input type="email" placeholder="tu@email.com" /></div>
-        <div class="full"><textarea placeholder="Tu mensaje"></textarea></div>
-        <div class="full contact-actions"><button class="btn btn-primary">Enviar</button></div>
+      <form id="hubspot-form" name="contact-form" method="POST">
+        <div><input type="text" name="firstname" placeholder="Tu nombre" required /></div>
+        <div><input type="email" name="email" placeholder="tu@email.com" required /></div>
+        <div class="full"><textarea name="message" placeholder="Tu mensaje" required></textarea></div>
+        <div class="full contact-actions"><button type="submit" class="btn btn-primary">Enviar</button></div>
       </form>
     </section>
   </main>
