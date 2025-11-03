@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Proyecto 3 — Detalle</title>
+  <title>Totem de Café — Detalle</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
@@ -46,31 +46,49 @@
     <section class="work-detail-hero">
       <div class="gallery" data-gallery>
         <div class="main-image">
-          <img id="main-image" src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80" alt="Proyecto 3" />
+          <img id="main-image" loading="eager" src="../IMAGENES/TOTEM-CAFE.png" alt="Totem de Café" />
         </div>
         <div class="thumbnails">
-          <div class="thumb-item"><img class="thumb-img" src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=70" data-full="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80" alt="thumb 1" /></div>
-          <div class="thumb-item"><img class="thumb-img" src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&w=800&q=70" data-full="https://images.unsplash.com/photo-1587620962725-abab7fe55159?auto=format&fit=crop&w=1600&q=80" alt="thumb 2" /></div>
-          <div class="thumb-item"><img class="thumb-img" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=70" data-full="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80" alt="thumb 3" /></div>
-          <div class="thumb-item"><img class="thumb-img" src="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=800&q=70" data-full="https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&w=1600&q=80" alt="thumb 4" /></div>
+          <div class="thumb-item"><img class="thumb-img" loading="lazy" src="../IMAGENES/TOTEM-CAFE.png" data-full="../IMAGENES/TOTEM-CAFE.png" alt="Totem de Café" /></div>
+          <div class="thumb-item"><img class="thumb-img" loading="lazy" src="../IMAGENES/RECARGA-CAFE.png" data-full="../IMAGENES/RECARGA-CAFE.png" alt="Recarga Totem de Café" /></div>
+          <div class="thumb-item"><img class="thumb-img" loading="lazy" src="../IMAGENES/METODO-DE-PAGO CAFE.png" data-full="../IMAGENES/METODO-DE-PAGO CAFE.png" alt="Método de pago Totem de Café" /></div>
+          <div class="thumb-item"><img class="thumb-img" loading="lazy" src="../IMAGENES/COMPRACAFE.png" data-full="../IMAGENES/COMPRACAFE.png" alt="Compra Totem de Café" /></div>
+        </div>
+      </div>
+      <div class="work-detail-hero" style="margin-top: 20px;">
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+          <div style="display: flex; align-items: center; gap: 16px;">
+            <span style="color: #1C1C1C; font-size: 18px; font-weight: 500;">Si quieres más información del proyecto</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: #1C1C1C;">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+            <a href="../DOCUMENTOS/Totem%20de%20Café.pdf" download="Totem-de-Café.pdf" class="btn btn-primary" style="padding: 10px 20px; font-size: 15px;">Documentación del proyecto</a>
+          </div>
+          <div style="display: flex; align-items: center; gap: 16px;">
+            <span style="color: #1C1C1C; font-size: 18px; font-weight: 500;">Visualiza el prototipo interactivo</span>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: #1C1C1C;">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+            <a href="https://www.figma.com/proto/G9Ekaxi9RBCIMgIpGvHD1L/Totem-de-Caf%C3%A9?node-id=144-176&t=isyDNesqZTwTblLN-1&scaling=scale-down&content-scaling=fixed&page-id=74%3A556&starting-point-node-id=80%3A1112" target="_blank" rel="noopener" class="btn btn-primary" style="padding: 10px 20px; font-size: 15px;">Ver prototipo en Figma</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="golden-section">
-      <h2>Golden Circle</h2>
+    <section class="golden-section" style="padding-top: 20px; padding-bottom: 20px;">
+      <h2>Proceso del proyecto</h2>
       <div class="golden-vertical">
         <div class="golden-item">
           <h3>¿Por qué?</h3>
-          <p>Para validar conceptos rápido y ahorrar costos antes del desarrollo.</p>
+          <p>Para crear una experiencia digital intuitiva que mejore la interacción de los clientes con la cafetería, facilitando la visualización del menú y la gestión de pedidos de manera eficiente.</p>
         </div>
         <div class="golden-item">
           <h3>¿Cómo?</h3>
-          <p>Wireframes de baja fidelidad, prototipos clicables y feedback continuo.</p>
+          <p>Mediante investigación de usuarios, diseño centrado en la usabilidad, prototipado interactivo en Figma y iteraciones basadas en feedback para garantizar una interfaz clara y funcional.</p>
         </div>
         <div class="golden-item">
           <h3>¿Qué?</h3>
-          <p>Flujos clave definidos y prototipo navegable listo para stakeholders.</p>
+          <p>Un totem digital con interfaz moderna que permite navegar por el menú de forma intuitiva, realizar pedidos con facilidad y mejorar significativamente la experiencia del cliente.</p>
         </div>
       </div>
     </section>
@@ -80,18 +98,18 @@
       <div class="other-projects-grid">
         <a class="other-project-card" href="./proyecto-1.html">
           <div class="other-project-image">
-            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" alt="Proyecto 1">
+            <img loading="lazy" src="../IMAGENES/HORIZONTE EN CALLE.png" alt="Horizonte">
           </div>
           <div class="other-project-content">
-            <h3>Proyecto 1</h3>
+            <h3>Horizonte</h3>
           </div>
         </a>
         <a class="other-project-card" href="./proyecto-2.html">
           <div class="other-project-image">
-            <img src="https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?auto=format&fit=crop&w=1200&q=80" alt="Proyecto 2">
+            <img loading="lazy" src="../IMAGENES/Afiche-de-campaña.webp" alt="Mayo Amarillo">
           </div>
           <div class="other-project-content">
-            <h3>Proyecto 2</h3>
+            <h3>Mayo Amarillo</h3>
           </div>
         </a>
       </div>
@@ -104,7 +122,17 @@
     </div>
   </footer>
 
-
+  <script>
+    const mainImage = document.getElementById('main-image');
+    const thumbItems = document.querySelectorAll('.thumb-item');
+    
+    thumbItems.forEach(item => {
+      item.addEventListener('click', function() {
+        const fullSizeImage = this.querySelector('.thumb-img').getAttribute('data-full');
+        mainImage.src = fullSizeImage;
+      });
+    });
+  </script>
 </body>
 </html>
 
