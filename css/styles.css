@@ -364,6 +364,7 @@ section {
   font-weight: 700;
   text-align: center;
   flex-shrink: 0;
+  color: var(--fg);
 }
 
 /* ============================================
@@ -770,6 +771,12 @@ textarea {
 
 .golden-card p {
   color: var(--muted);
+}
+
+.golden-item p br {
+  display: block;
+  margin-top: 8px;
+  line-height: 0;
 }
 
 @media (max-width: 920px) {
