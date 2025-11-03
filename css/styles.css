@@ -502,6 +502,11 @@ section {
   margin: 0 auto;
 }
 
+.img-contain {
+object-fit: contain !important;
+}
+
+
 .about-card {
   background: var(--card);
   border: 1px solid var(--line);
@@ -699,7 +704,7 @@ textarea {
   border: 1px solid var(--line);
   border-radius: 20px;
   overflow: hidden;
-  width: 100%;
+  width: 700px;
   height: 640px;
   min-width: 0;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
