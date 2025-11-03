@@ -34,6 +34,36 @@ body {
   overflow-x: hidden;
 }
 
+main,
+section {
+  overflow: visible;
+}
+
+main {
+  overflow-y: visible;
+  overflow-x: visible;
+}
+
+.work-container,
+.process-section,
+.steps,
+.work-section {
+  overflow: visible;
+}
+
+* {
+  overflow-x: visible;
+}
+
+html {
+  overflow-y: auto;
+}
+
+body {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 body,
 button,
 input,
@@ -138,8 +168,6 @@ nav a:hover {
    LAYOUT PRINCIPAL
    ============================================ */
 main {
-  height: 100vh;
-  overflow-y: scroll;
   padding-top: var(--header-h);
 }
 
